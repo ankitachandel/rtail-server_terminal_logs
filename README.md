@@ -29,7 +29,7 @@ Run it
 rtail-server --web-version stable
  You can run rtail-server as a process also using PM2. Execute :
 pm2 start rtail-server.
-#  http://localhost:8888 and you will get a screen like this
+#  http://localhost:8080 and you will get a screen like this
 
 
 /////////////////////////////////////
