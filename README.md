@@ -21,3 +21,10 @@ Run it
 pm2 start process.yaml
 pm2 save
 # logs are in ~/.pm2
+
+
+/////////////////////////////////////
+Run rtail server on browser 
+node server.js | rtail --id namestreamid  --host localhost 
+At this point http://localhost:8080 should list the available streams and the log traces coming in from them.
+
