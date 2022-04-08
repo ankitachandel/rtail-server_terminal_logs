@@ -28,11 +28,11 @@ Run it
  Run rtail-server which will work as a reciever
 rtail-server --web-version stable
  You can run rtail-server as a process also using PM2. Execute :
-pm2 start rtail-server.
-#  http://localhost:8080 and you will get a screen like this
+# pm2 start rtail-server
 
 
-/////////////////////////////////////
+
+
 Run nodetest server start  check output on browser  
 # node server.js | rtail --id namestreamid  --host localhost 
 At this point http://localhost:8080 should list the available streams and the log traces coming in from them.
